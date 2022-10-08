@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Version>1.0.1</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>RAGS.gerencianet</PackageId>
+    <Authors>richardags</Authors>
+    <Description>Permite criar cobranças de PIX  via QR Code ou Pix Copia e Cola.</Description>
+    <Copyright>MIT</Copyright>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/richardags/RAGS.gerencianet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Title>gerencianet</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RAGS.HttpClientHelper" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
